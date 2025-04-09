@@ -82,7 +82,7 @@ bigdata-customer-insights-pipeline/
 
 🌐 Contributors
 Your Name – <a >Manoj Mahanty </a>
-Friend's Name – LinkedIn
+Friend's Name – Sagar Jadhav & Tushar Hedange
 
 📌 License
 This project is licensed under the MIT License.

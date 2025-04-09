@@ -28,11 +28,12 @@ This project aims to build a scalable data pipeline that ingests and processes c
 
 ### Installation
 
-###```bash
-git clone https://github.com/<your-username>/bigdata-customer-insights-pipeline.git
-cd bigdata-customer-insights-pipeline
+```bash
+git clone git@github.com:mahantymanoj/bigdata-Filling-pipeline.git
+cd bigdata-Filling-pipeline
 pip install -r requirements.txt
-
+```
+----------
 
 ## 🧱 Tech Stack
 
@@ -59,7 +60,7 @@ pip install -r requirements.txt
 ---
 
 ## 📂 Repository Structure
-
+```
 bigdata-customer-insights-pipeline/
 │
 ├── dags/                   # Airflow DAGs
@@ -77,11 +78,10 @@ bigdata-customer-insights-pipeline/
 ├── requirements.txt        # Python dependencies
 ├── docker-compose.yml      # Local Airflow/DBT setup
 └── README.md               # Project overview
-
+```
 
 🌐 Contributors
-Your Name – LinkedIn
-
+Your Name – <a >Manoj Mahanty </a>
 Friend's Name – LinkedIn
 
 📌 License

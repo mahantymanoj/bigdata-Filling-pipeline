@@ -28,7 +28,7 @@ This project aims to build a scalable data pipeline that ingests and processes c
 
 ### Installation
 
-```bash
+###```bash
 git clone https://github.com/<your-username>/bigdata-customer-insights-pipeline.git
 cd bigdata-customer-insights-pipeline
 pip install -r requirements.txt
@@ -78,5 +78,13 @@ bigdata-customer-insights-pipeline/
 ├── docker-compose.yml      # Local Airflow/DBT setup
 └── README.md               # Project overview
 
+
+🌐 Contributors
+Your Name – LinkedIn
+
+Friend's Name – LinkedIn
+
+📌 License
+This project is licensed under the MIT License.
 
 

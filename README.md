@@ -39,4 +39,23 @@ This project aims to build a scalable data pipeline that ingests and processes c
 
 ## 📂 Repository Structure
 
+bigdata-customer-insights-pipeline/
+│
+├── dags/                   # Airflow DAGs
+├── dbt/                    # DBT models and configs
+│   ├── models/
+│   └── profiles.yml
+├── glue_jobs/              # PySpark scripts for Glue
+├── lambda_functions/       # Lambda handlers
+├── data/                   # Sample input data
+│   ├── snowflake_exports/
+│   └── s3_json_logs/
+├── cicd/                   # GitHub Actions workflows
+├── terraform/              # (optional) infra as code
+├── notebooks/              # Jupyter notebooks (exploration, dev)
+├── requirements.txt        # Python dependencies
+├── docker-compose.yml      # Local Airflow/DBT setup
+└── README.md               # Project overview
+
+
 

@@ -1,7 +1,6 @@
-# bigdata-customer-insights-pipeline
-bigdata-customer-insights-pipeline
+# Repo Name: - bigdata-filing-pipeline
 
-# 🧠 Customer Insights Big Data Pipeline
+# 🧠 "SEC Filing Ingestion and Analytics Pipeline with Real-Time & Batch Processing"
 
 A full-scale big data engineering project designed to simulate a real-world analytics use case using AWS, Snowflake, PySpark, Redshift, Airflow, DBT, and more.
 
@@ -9,7 +8,7 @@ A full-scale big data engineering project designed to simulate a real-world anal
 
 ## 🚀 Project Objective
 
-This project aims to build a scalable data pipeline that ingests and processes customer transactions and event logs, transforms the data into meaningful insights, and stores it in Redshift for analysis and reporting.
+This project aims to build a scalable data pipeline that ingests and processes Filing (10-Q and 10-K), transforms the data into meaningful insights, and stores it in Redshift for analysis and reporting.
 
 ---
 
@@ -28,11 +27,12 @@ This project aims to build a scalable data pipeline that ingests and processes c
 
 ### Installation
 
-###```bash
-git clone https://github.com/<your-username>/bigdata-customer-insights-pipeline.git
-cd bigdata-customer-insights-pipeline
+```bash
+git clone git@github.com:mahantymanoj/bigdata-Filling-pipeline.git
+cd bigdata-Filling-pipeline
 pip install -r requirements.txt
-
+```
+----------
 
 ## 🧱 Tech Stack
 
@@ -48,7 +48,7 @@ pip install -r requirements.txt
 
 ## 🔄 Workflow Overview
 
-1. Export transactional data from **Snowflake** to **S3**.
+1. Web scraping the file data from **SEC** to **S3**.
 2. JSON logs (clickstream/cart events) are uploaded to **S3**.
 3. **Lambda** triggers **Glue** to process and merge data.
 4. Processed data is loaded into **Redshift**.
@@ -59,8 +59,8 @@ pip install -r requirements.txt
 ---
 
 ## 📂 Repository Structure
-
-bigdata-customer-insights-pipeline/
+```
+bigdata-filing-pipeline/
 │
 ├── dags/                   # Airflow DAGs
 ├── dbt/                    # DBT models and configs
@@ -77,12 +77,11 @@ bigdata-customer-insights-pipeline/
 ├── requirements.txt        # Python dependencies
 ├── docker-compose.yml      # Local Airflow/DBT setup
 └── README.md               # Project overview
-
+```
 
 🌐 Contributors
-Your Name – LinkedIn
-
-Friend's Name – LinkedIn
+Your Name – <a >Manoj Mahanty </a>
+Friend's Name – Sagar Jadhav & Tushar Hedange
 
 📌 License
 This project is licensed under the MIT License.

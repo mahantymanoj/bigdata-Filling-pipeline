@@ -13,6 +13,27 @@ This project aims to build a scalable data pipeline that ingests and processes c
 
 ---
 
+
+---
+
+## 🧑‍💻 Getting Started
+
+### Prerequisites
+
+- Python 3.8+
+- Docker & Docker Compose
+- AWS Account
+- Snowflake Account
+- Git & GitHub
+
+### Installation
+
+```bash
+git clone https://github.com/<your-username>/bigdata-customer-insights-pipeline.git
+cd bigdata-customer-insights-pipeline
+pip install -r requirements.txt
+
+
 ## 🧱 Tech Stack
 
 - **Python**, **PySpark**
